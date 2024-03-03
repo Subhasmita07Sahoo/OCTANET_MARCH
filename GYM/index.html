@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahoo Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@1,700&display=swap"
+    rel="stylesheet">
+<!-- <link rel="stylesheet" href="style.css"> -->
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('background1.jpg');
+        background-size: 1500px;
+        background-position: no-repeat;
+        /* background-position: center top; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid red; */
+        display: inline-block;
+        border: 2px solid grey;
+    }
+
+    .left img {
+        width: 136px;
+        height: 70px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 20px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .mid {
+        margin: 20px 550px;
+        width: 40%;
+        /* border: 2px solid green; */
+        display: block;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: blanchedalmond;
+    }
+
+    .btn {
+        margin: 10px 10px;
+        background-color: black;
+        color: beige;
+        padding: 5px 14px;
+        font-size: 15px;
+        font-family: 'Baloo Thambi 2', cursive;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        border: 2px solid grey;
+        border-radius: 12px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: darkgoldenrod;
+    }
+
+    .container {
+        border: 2px solid grey;
+        margin: 175px 80px;
+        padding: 30px 50px;
+        width: 25%;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .form input {
+        text-align: center;
+        display: block;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin: 5px auto;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .container .btn {
+        width: 70%;
+        margin: 25px auto;
+        /* display: block; */
+
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+
+            <img src="imglogo.png" alt="">
+            <div>Sahoo Fitness</div>
+
+
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of BBSR</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Enter Your Age">
+            </div>
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Enter Your Gender">
+            </div>
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Enter Your Locality">
+            </div>
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Enter Your Contact Number">
+            </div>
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Enter Your EmailID">
+            </div>
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
