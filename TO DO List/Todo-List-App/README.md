@@ -1,3 +1,3 @@
-Todo-List. #SUBHASMITA-SAHOO
+To-Do List. #SUBHASMITA-SAHOO
 
-A fully functional todo list app built my using HTML,CSS & JS. 
+A fully functional To-Do list built my using HTML,CSS & JS. 
